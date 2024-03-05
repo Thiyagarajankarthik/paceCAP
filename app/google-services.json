@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "475847780951",
+    "project_id": "pacecap-e3a90",
+    "storage_bucket": "pacecap-e3a90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475847780951:android:2abfb681b1949f8d32d112",
+        "android_client_info": {
+          "package_name": "com.project.pacecap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCz-VKmY9ESFy4EZhXYj1DfTywigiAzKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

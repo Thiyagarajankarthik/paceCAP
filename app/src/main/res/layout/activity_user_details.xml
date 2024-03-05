@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".userDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userDetails"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#28A0EA"
+        android:layout_marginTop="70dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/firstname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:layout_marginTop="40dp"
+        android:autofillHints="emailAddress"
+        android:drawableStart="@drawable/edittext"
+        android:drawableLeft="@drawable/edittext"
+        android:background="@drawable/edittext"
+        android:hint="@string/firstname"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/lastname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:drawableStart="@drawable/edittext"
+        android:drawableLeft="@drawable/edittext"
+        android:background="@drawable/edittext"
+        android:hint="@string/lastName"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:background="@drawable/edittext"
+        android:drawableStart="@drawable/edittext"
+        android:drawableLeft="@drawable/edittext"
+        android:hint="@string/phone"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        tools:ignore="TextContrastCheck" />
+    <Button
+        android:id="@+id/otp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="@string/otp"
+        android:textColor="#000000"
+        android:backgroundTint="@color/white"
+        android:textSize="10sp"
+        android:layout_gravity="end"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="20dp"
+        tools:ignore="SmallSp" />
+
+    <EditText
+        android:id="@+id/enterotp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="10dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="password"
+        android:drawableStart="@drawable/edittext"
+        android:drawableLeft="@drawable/edittext"
+        android:background="@drawable/edittext"
+        android:hint="@string/enterotp"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck"
+        android:paddingLeft="10dp" />
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textColor="#28A0EA"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
